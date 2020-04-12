@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./css/responsive.css">
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
 
-    <title>United States Cutting Horse Association</title>
+    <title>Schubert Law pllc</title>
   </head>
   <body>
 
@@ -46,7 +46,9 @@
 </div>
 </header>
 
+
 <section id="sectionOne">
+  <div class="wrapper">
   <div  class="container-fluid">
 
     <div class="row">
@@ -58,8 +60,11 @@
         <button class="btn" style="margin-top: 20px;">Book A Consultation</button>
       </div>
     </div>
+
   </div>
 </section>
+
+
 
 
 
@@ -69,7 +74,7 @@
 
     <div class="col-1-2">
       <div class="center>">
-      <h3>Welom to Schubert Law</h3>
+      <h3>Welcome to Schubert Law</h3>
       <p>The Law Office of Leigha Schubert, PLLC is a full service civil law firm. Our goal is to provide quality, efficient, and timely legal services in response to your needs.  </p>
       <p>JWe offer services in several areas including real estate, wills, business formation, mediation, contracts, and others. Contact The Law Office of Leigha Schubert, PLLC to set up a consultation to discuss your legal needs.</p>
     </div>
@@ -166,20 +171,24 @@
         <h4>Schubert Law Firm, PLLC, </h4>
         <h6>108 S. Echols P.O. Box 753 Caldwell, Texas 77836</h6>
       </div>
+    </div>
+    <div class="row clearfix text-center">
       <div class="col-1-3">
-            <p style="margin-bottom: 40px;">Phone: (979) 567-3999</p>
+            <p style="margin-bottom: 40px;">  <i class="fa fa-phone" style="padding-right: 5px;"></i> <span style="color: #fff;  font-weight: 400; font-family: 'Open Sans', sans-serif;">(979) 567-3999</span></p>
       </div>
       <div class="col-1-3">
-            <p style="margin-bottom: 40px;">Email:<a href="leigha@schubertlawtx.com"> leigha@schubertlawtx.com</a></p>
+            <p style="margin-bottom: 40px;"><i class="fa fa-envelope" style="padding-right: 5px;"></i> <span style="color: #fff;  font-weight: 400; font-family: 'Open Sans', sans-serif;"><a href="leigha@schubertlawtx.com">leigha@schubertlawtx.com</a></span></p>
       </div>
        <div class="col-1-3">
-            <p style="margin-bottom: 40px;">Fax: (979) 567-3112</p>
+             <p style="margin-bottom: 40px;">  <i class="fa fa-fax" style="padding-right: 5px;"></i> <span style="color: #fff;  font-weight: 400; font-family: 'Open Sans', sans-serif;">(979) 567-3112</span></p>
       </div>
-      <div class="col-1">
+    </div>
+     <div class="row clearfix">
+      <div class="col-1 text-center">
         <p style="margin-bottom: 0px; font-size: 12px; line-height: 15px; color:#fff;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
       </div>
     </div>
-  </div>
+    </div>
 </footer>
 
 
@@ -191,6 +200,20 @@
     <script type="text/javascript" src="./js/app.js"></script>
    <!-- JavaScript -->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<script type="text/javascript">
+  var header = document.querySelector('header'); // Identify target
+
+window.addEventListener('scroll', function(event) { // To listen for event
+    event.preventDefault();
+
+    if (window.scrollY <= 150) { // Just an example
+        header.style.backgroundColor = 'transparent'; // or default color
+    } else {
+        header.style.backgroundColor = '#5A0C07';
+    }
+});
+</script>
 
   </body>
 </html>
