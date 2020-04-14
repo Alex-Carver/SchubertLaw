@@ -15,7 +15,7 @@
   </head>
   <body>
 
-<header>
+<header id="nav-bg">
   <div class="container-fluid">
     <div class="phone text-right" style="padding-top: 15px;">
       <i class="fa fa-phone" style="padding-right: 5px;"></i> <span style="color: #fff; padding-right: 20px; font-weight: 400; font-family: 'Open Sans', sans-serif;">(979) 567-3999</span>
@@ -166,7 +166,7 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-1 text-center">
-        <img style="max-width: 150px;" src="./images/logo.png">
+        <img src="./images/logoFooter.svg">
         <h4>Schubert Law Firm, PLLC, </h4>
         <h6>108 S. Echols P.O. Box 753 Caldwell, Texas 77836</h6>
       </div>
@@ -207,9 +207,9 @@ window.addEventListener('scroll', function(event) { // To listen for event
     event.preventDefault();
 
     if (window.scrollY <= 150) { // Just an example
-        header.style.backgroundColor = 'rgba(25, 25, 25, .5)'; // or default color
+        header.style.background = "url('./images/topbackground.jpg')"; // or default color
     } else {
-        header.style.backgroundColor = '#5A0C07';
+        header.style.background = '#5A0C07';
     }
 });
 </script>

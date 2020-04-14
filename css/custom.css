@@ -32,6 +32,15 @@ section{
 	padding-bottom: 50px;
 }
 
+#nav-bg{
+  background-image: url("../images/topbackground.jpg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
 header{
   width:100%;
   height: auto;
@@ -43,6 +52,8 @@ header{
   -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,.5);
   box-shadow: 0 8px 6px -6px rgba(0,0,0,.5);*/
 }
+
+
 
 header p{
   font-size: 16px;
@@ -259,11 +270,11 @@ i{
     position: absolute;
     display: block;
     width: 100%;
-    background-color: rgba(25, 25, 25, .8);
+    background-color: rgba(90, 12, 7, .8);
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 70px;
+    top: 85px;
     left: 0px;
     text-align: center;
   }
@@ -399,7 +410,7 @@ footer{
   padding-top: 50px;
   padding-bottom: 25px;
   height: auto;
-  background:#191919;
+  background:#5A0C07;
 }
 
 footer p, h4, h6{
