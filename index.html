@@ -24,7 +24,7 @@
   <input type="checkbox" id="nav-check">
   <div class="nav-header">
     <div class="nav-title">
-      <img src="./images/logo.svg">
+      <img class="logo" src="./images/logo.png">
     </div>
   </div>
   <div class="nav-btn">
@@ -48,7 +48,6 @@
 
 
 <section id="sectionOne">
-  <div class="wrapper">
   <div  class="container-fluid">
 
     <div class="row">
@@ -208,9 +207,9 @@ window.addEventListener('scroll', function(event) { // To listen for event
     event.preventDefault();
 
     if (window.scrollY <= 150) { // Just an example
-        header.style.backgroundColor = 'transparent'; // or default color
+        header.style.backgroundColor = 'rgba(25, 25, 25, .5)'; // or default color
     } else {
-        header.style.backgroundColor = '#5A0C07';
+        header.style.backgroundColor = '#191919';
     }
 });
 </script>

@@ -15,7 +15,7 @@ background: url(../images/hero.jpg) no-repeat center center fixed;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-height: 95vh;
+height: 80vh;
 padding-top: 280px;
 padding-bottom: 280px;
 }
@@ -36,7 +36,7 @@ header{
   width:100%;
   height: auto;
   padding:0px;
-  background:transparent;
+  background:rgba(25, 25, 25, .5);
   position: fixed;
   transition: all 0.2s ease-in;
    /*-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,.5);
@@ -179,7 +179,11 @@ i{
 }
 
 
+.logo{
+  max-width: 100px;
+  height: auto;
 
+}
 
 /*--Navigation--*/
 .nav {
@@ -255,11 +259,11 @@ i{
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #5A0C07;
+    background-color: rgba(25, 25, 25, .8);
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 60px;
+    top: 70px;
     left: 0px;
     text-align: center;
   }
@@ -395,7 +399,7 @@ footer{
   padding-top: 50px;
   padding-bottom: 25px;
   height: auto;
-  background:#5A0C07;
+  background:#191919;
 }
 
 footer p, h4, h6{
